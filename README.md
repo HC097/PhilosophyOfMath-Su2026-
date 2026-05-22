@@ -2,6 +2,8 @@
 
 This repository contains lecture notes for a course in the philosophy of mathematics.
 
+Here is a link to the YouTube playlist of lectures: https://www.youtube.com/playlist?list=PL0KmvrFqDNusCLPeG44NF-_NmPFLl8yGz
+
 The notes are designed for classroom teaching, especially lectures that make active use of a whiteboard. They are not intended to be polished textbook chapters or fully scripted lectures. Instead, they provide structured teaching materials: central themes, key distinctions, whiteboard prompts, teaching points, discussion questions, and conceptual summaries.
 
 ## Course Aim
