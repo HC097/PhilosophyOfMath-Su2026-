@@ -1,6 +1,6 @@
 # License
 
-Philosophy of Mathematics Lecture Notes © 2026 [Your Name]
+Philosophy of Mathematics Lecture Notes © 2026 Harley Combest
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 
@@ -12,7 +12,7 @@ You may not use these materials for commercial purposes without prior written pe
 
 Suggested attribution:
 
-> Philosophy of Mathematics Lecture Notes by [Your Name], licensed under CC BY-NC 4.0.
+> Philosophy of Mathematics Lecture Notes by Harley Combest, licensed under CC BY-NC 4.0.
 
 ## Source Materials
 
