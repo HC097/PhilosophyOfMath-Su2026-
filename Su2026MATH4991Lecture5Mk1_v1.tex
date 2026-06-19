@@ -1,0 +1,1265 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{enumitem}
+
+\title{Lecture 5 Notes: \\ Logicism: Is Mathematics (Just) Logic?}
+\author{Philosophy of Mathematics}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Central Theme}
+
+Logicism is the view that mathematics, or at least a significant part of mathematics, can be
+reduced to logic.
+
+\[
+\boxed{
+\text{Mathematics} = \text{logic} + \text{definitions?}
+}
+\]
+
+The guiding question:
+
+\[
+\boxed{
+\text{Can mathematics be analytic rather than synthetic?}
+}
+\]
+
+Logicism offers a third route after Kant and Mill.
+
+\[
+\begin{array}{c|c|c}
+\textbf{Kant} & \textbf{Mill} & \textbf{Logicism} \\
+\hline
+\text{synthetic a priori} & \text{synthetic a posteriori} & \text{analytic a priori} \\
+\text{intuition} & \text{experience} & \text{logic and definitions}
+\end{array}
+\]
+
+\section*{1. The Logicist Alternative}
+
+Kant held that mathematics is synthetic a priori. Mathematical knowledge is not derived
+from experience, but it is also not merely conceptual analysis.
+
+Mill took the opposite route. Mathematics is synthetic, but empirical. It is grounded in
+experience and induction.
+
+Logicism proposes another answer:
+
+\[
+\text{Mathematics is analytic.}
+\]
+
+Mathematical truths are knowable a priori because they can be derived from logic and
+definitions alone.
+
+\subsection*{Teaching Point}
+
+Logicism tries to preserve the necessity and a priority of mathematics without Kantian
+intuition and without Millian empiricism.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Kant: intuition}
+\]
+
+\[
+\text{Mill: experience}
+\]
+
+\[
+\text{Logicism: logic + definitions}
+\]
+
+\section*{2. Frege's New Conception of Analyticity}
+
+For Kant, a proposition is analytic if the predicate concept is contained in the subject
+concept.
+
+Frege changes the issue. For Frege, analyticity concerns the ultimate ground of
+justification.
+
+\[
+\boxed{
+\text{A truth is analytic if it is provable from logic and definitions alone.}
+}
+\]
+
+So the question is not whether \(7+5=12\) is contained in the concepts of \(7\), \(5\), \(+\),
+and \(12\). The question is whether arithmetic can be derived from logical laws and
+definitions.
+
+\subsection*{Teaching Point}
+
+Frege turns analyticity from a theory of concept-containment into a theory of proof.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Kant: analytic} = \text{concept containment}
+\]
+
+\[
+\text{Frege: analytic} = \text{proof from logic and definitions}
+\]
+
+\section*{3. Frege's Program}
+
+Frege's project is:
+
+\[
+\boxed{
+\text{Define number logically, then derive arithmetic logically.}
+}
+\]
+
+This makes arithmetic a test case for logicism.
+
+Frege is a realist about mathematics. He thinks numbers are genuine objects and that
+mathematical statements have objective truth-values.
+
+\[
+\begin{array}{c|c}
+\textbf{Realism in ontology} & \text{Numbers exist as objects.} \\
+\textbf{Realism in truth-value} & \text{Arithmetic statements are objectively true or false.}
+\end{array}
+\]
+
+\subsection*{Teaching Point}
+
+Frege is not trying to eliminate numbers. He is trying to show that numbers are logical
+objects.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Number} \rightarrow \text{logical object}
+\]
+
+\[
+\text{Arithmetic} \rightarrow \text{logical science}
+\]
+
+\section*{4. Equinumerosity}
+
+Frege begins with a basic fact about counting.
+
+Two concepts are equinumerous if the objects falling under one can be put into one-to-one
+correspondence with the objects falling under the other.
+
+Examples:
+
+\[
+\text{napkins} \sim \text{plates}
+\]
+
+if there is exactly one napkin for each plate.
+
+\[
+\text{husbands} \sim \text{wives}
+\]
+
+in a monogamous society, by definition.
+
+\subsection*{Teaching Point}
+
+Counting can be understood through one-to-one correspondence before we explicitly
+introduce numbers.
+
+\subsection*{Whiteboard}
+
+\[
+F \sim G
+\quad \text{iff}
+\quad
+F\text{s and }G\text{s can be paired one-to-one.}
+\]
+
+\[
+\text{same number}
+=
+\text{equinumerous}
+\]
+
+\section*{5. Hume's Principle}
+
+Frege's central principle is now called Hume's Principle.
+
+\[
+\boxed{
+\#F = \#G
+\quad \text{iff}
+\quad
+F \sim G
+}
+\]
+
+In words:
+
+\[
+\text{The number of }F = \text{the number of }G
+\]
+
+if and only if
+
+\[
+F \text{ and } G \text{ are equinumerous.}
+\]
+
+This principle connects number-identity with one-to-one correspondence.
+
+\subsection*{Teaching Point}
+
+Hume's Principle is the heart of Fregean logicism. It gives identity conditions for numbers
+in terms of equinumerosity.
+
+\subsection*{Whiteboard}
+
+\[
+\#F = \#G
+\Longleftrightarrow
+F \sim G
+\]
+
+\[
+\text{number identity}
+\Longleftrightarrow
+\text{one-to-one correspondence}
+\]
+
+\section*{6. Constructing the Natural Numbers}
+
+Frege defines zero using an impossible concept.
+
+\[
+Zx \equiv x \neq x
+\]
+
+Since nothing is non-self-identical, \(Z\) applies to no objects.
+
+\[
+0 = \#Z
+\]
+
+Then one is the number of the concept ``identical with zero'':
+
+\[
+1 = \#(x=0)
+\]
+
+Two is the number of the concept ``identical with zero or identical with one'':
+
+\[
+2 = \#(x=0 \lor x=1)
+\]
+
+And so on.
+
+\subsection*{Teaching Point}
+
+Frege tries to generate the natural numbers from logical notions: object, concept, identity,
+and equinumerosity.
+
+\subsection*{Whiteboard}
+
+\[
+0 = \#(x \neq x)
+\]
+
+\[
+1 = \#(x=0)
+\]
+
+\[
+2 = \#(x=0 \lor x=1)
+\]
+
+\[
+3 = \#(x=0 \lor x=1 \lor x=2)
+\]
+
+\section*{7. Successor and Natural Number}
+
+Frege defines the successor relation without presupposing arithmetic.
+
+Roughly:
+
+\[
+n \text{ is the successor of } m
+\]
+
+if there is a concept \(F\) such that \(F\) applies to exactly \(n\) objects, and removing one
+object from \(F\) leaves exactly \(m\) objects.
+
+\[
+n = m+1
+\]
+
+if \(n\) is the number of a concept obtained by adding one object to a concept with number
+\(m\).
+
+Frege then defines natural number without circularly appealing to ``finitely many.''
+
+\[
+n \text{ is natural iff } n \text{ belongs to every concept containing }0
+\text{ and closed under successor.}
+\]
+
+\subsection*{Teaching Point}
+
+Frege's definition of natural number anticipates the structure of mathematical induction.
+
+\subsection*{Whiteboard}
+
+\[
+0 \in F
+\]
+
+\[
+\forall n(n \in F \rightarrow S(n) \in F)
+\]
+
+\[
+\therefore
+\text{every natural number belongs to }F
+\]
+
+\section*{8. Frege's Theorem}
+
+Frege derives the basic laws of arithmetic from Hume's Principle and second-order logic.
+
+This result is now called Frege's Theorem.
+
+\[
+\boxed{
+\text{Hume's Principle} + \text{second-order logic}
+\Rightarrow
+\text{arithmetic}
+}
+\]
+
+The theorem is a major mathematical and philosophical achievement.
+
+\subsection*{Teaching Point}
+
+Even if Frege's full system fails, Frege's Theorem shows that arithmetic has a surprisingly
+deep connection with logic and abstraction.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Hume's Principle}
+\]
+
+\[
++
+\]
+
+\[
+\text{Second-order logic}
+\]
+
+\[
+\Downarrow
+\]
+
+\[
+\text{Arithmetic}
+\]
+
+\section*{9. The Caesar Problem}
+
+Frege was not satisfied with Hume's Principle alone.
+
+Hume's Principle settles identities of this form:
+
+\[
+\#F = \#G
+\]
+
+But it does not settle identities of this form:
+
+\[
+\#F = t
+\]
+
+where \(t\) is an arbitrary singular term.
+
+For example:
+
+\[
+\#F = \text{Julius Caesar?}
+\]
+
+This is the Caesar problem.
+
+The question is not whether anyone will actually confuse the number \(2\) with Julius
+Caesar. The question is whether Frege has given full identity conditions for numbers as
+objects.
+
+\subsection*{Teaching Point}
+
+If numbers are objects, we need to know when a number is identical with, or distinct from,
+any object whatsoever.
+
+\subsection*{Whiteboard}
+
+\[
+\#F = \#G
+\quad
+\text{settled}
+\]
+
+\[
+\#F = \text{Caesar}
+\quad
+\text{not settled}
+\]
+
+\[
+\text{No entity without identity.}
+\]
+
+\section*{10. Extensions and Basic Law V}
+
+Frege tries to solve the Caesar problem by defining numbers as extensions of concepts.
+
+\[
+\#F =
+\text{the extension of the concept equinumerous with }F
+\]
+
+So the number two is, roughly, the extension containing all concepts that apply to exactly
+two objects.
+
+Frege's system depends on Basic Law V.
+
+\[
+\boxed{
+\operatorname{Ext}(F)=\operatorname{Ext}(G)
+\quad \text{iff}
+\quad
+\forall x(Fx \leftrightarrow Gx)
+}
+\]
+
+In words: two concepts have the same extension if and only if they apply to exactly the
+same objects.
+
+\subsection*{Teaching Point}
+
+Frege's logicism depends on a theory of extensions. That theory is where disaster strikes.
+
+\subsection*{Whiteboard}
+
+\[
+\operatorname{Ext}(F)=\operatorname{Ext}(G)
+\Longleftrightarrow
+\forall x(Fx \leftrightarrow Gx)
+\]
+
+\section*{11. Russell's Paradox}
+
+Russell discovered that Basic Law V is inconsistent.
+
+A simplified version of the paradox uses the class:
+
+\[
+R = \{x : x \notin x\}
+\]
+
+Now ask:
+
+\[
+R \in R?
+\]
+
+If \(R \in R\), then by definition \(R \notin R\).
+
+If \(R \notin R\), then by definition \(R \in R\).
+
+So:
+
+\[
+R \in R
+\Longleftrightarrow
+R \notin R
+\]
+
+Contradiction.
+
+\subsection*{Teaching Point}
+
+Russell's paradox destroyed Frege's original logicist system, because it showed that
+Frege's theory of extensions was inconsistent.
+
+\subsection*{Whiteboard}
+
+\[
+R = \{x : x \notin x\}
+\]
+
+\[
+R \in R?
+\]
+
+\[
+\text{Yes} \Rightarrow \text{No}
+\]
+
+\[
+\text{No} \Rightarrow \text{Yes}
+\]
+
+\section*{12. Russell's Response: The Vicious Circle Principle}
+
+Russell diagnoses the paradox as the result of illegitimate circularity.
+
+\[
+\boxed{
+\text{No totality may contain members defined in terms of that very totality.}
+}
+\]
+
+This is the vicious circle principle.
+
+It rules out impredicative definitions: definitions that define something by referring to a
+totality that already contains it.
+
+\subsection*{Teaching Point}
+
+Russell's response to paradox is to restrict what can meaningfully be defined.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Impredicative definition}
+\]
+
+\[
+=
+\]
+
+\[
+\text{definition using a totality containing the thing defined}
+\]
+
+\[
+\text{Russell: ban it.}
+\]
+
+\section*{13. Type Theory}
+
+Russell introduces type theory to block self-membership and vicious circularity.
+
+\[
+\begin{array}{c|c}
+\textbf{Type 0} & \text{individuals} \\
+\textbf{Type 1} & \text{classes of individuals} \\
+\textbf{Type 2} & \text{classes of classes of individuals} \\
+\textbf{Type 3} & \text{classes of type 2 classes}
+\end{array}
+\]
+
+A class cannot be a member of itself because it is always of a higher type than its members.
+
+\[
+x \in C
+\]
+
+is meaningful only when \(C\) is one type higher than \(x\).
+
+\subsection*{Teaching Point}
+
+Type theory avoids Russell's paradox by making self-membership meaningless.
+
+\subsection*{Whiteboard}
+
+\[
+\text{individuals}
+\rightarrow
+\text{classes}
+\rightarrow
+\text{classes of classes}
+\rightarrow
+\text{classes of classes of classes}
+\]
+
+\[
+R \in R
+\quad
+\text{is not false; it is ill-typed.}
+\]
+
+\section*{14. Russell's Numbers}
+
+Russell defines numbers as classes of equinumerous classes.
+
+\[
+2 = \text{the class of all pairs}
+\]
+
+\[
+3 = \text{the class of all triples}
+\]
+
+So the number of a class \(C\) is the class of all classes equinumerous with \(C\).
+
+This resembles Frege, but Russell's type restrictions create complications.
+
+\subsection*{Teaching Point}
+
+Russell preserves the general Fregean idea that numbers are tied to equinumerosity, but
+he changes the logical framework to avoid paradox.
+
+\subsection*{Whiteboard}
+
+\[
+0 = \text{class of all empty classes}
+\]
+
+\[
+1 = \text{class of all singletons}
+\]
+
+\[
+2 = \text{class of all pairs}
+\]
+
+\section*{15. The Axiom of Infinity}
+
+Russell cannot prove that there are infinitely many natural numbers.
+
+If there are only finitely many individuals, then there are only finitely many classes of
+individuals, and the natural numbers run out.
+
+So Russell and Whitehead introduce the axiom of infinity.
+
+\[
+\boxed{
+\text{There are infinitely many individuals.}
+}
+\]
+
+But this axiom does not look like a logical truth.
+
+\subsection*{Teaching Point}
+
+Russell avoids Frege's paradox, but he must add assumptions that weaken the logicist
+claim.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Frege: proves infinity, but paradox.}
+\]
+
+\[
+\text{Russell: avoids paradox, but assumes infinity.}
+\]
+
+\section*{16. The Axiom of Reducibility}
+
+Ramified type theory also blocks many definitions needed for ordinary mathematics.
+
+To recover mathematics, Russell and Whitehead introduce the axiom of reducibility.
+
+Roughly:
+
+\[
+\boxed{
+\text{For every class, there is an equivalent predicative class.}
+}
+\]
+
+This allows them to proceed as if many impredicative definitions were acceptable.
+
+But the axiom looks ad hoc. It is introduced because mathematics needs it, not because it
+is obviously logical.
+
+\subsection*{Teaching Point}
+
+The axiom of reducibility reveals the cost of Russell's logicism: to save mathematics, he
+must add principles that do not seem purely logical.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Avoid paradox}
+\quad \rightarrow \quad
+\text{type restrictions}
+\]
+
+\[
+\text{Recover mathematics}
+\quad \rightarrow \quad
+\text{reducibility}
+\]
+
+\[
+\text{Question: is this still logicism?}
+\]
+
+\section*{17. Russell's No-Class Theory}
+
+Russell later denies that classes are genuine objects.
+
+Classes are logical fictions.
+
+Since numbers are constructed from classes, numbers also become logical fictions.
+
+\[
+\begin{array}{c|c}
+\textbf{Frege} & \textbf{Russell} \\
+\hline
+\text{numbers are logical objects} & \text{numbers are logical fictions} \\
+\text{realist ontology} & \text{anti-realist about classes} \\
+\text{extensions as objects} & \text{classes eliminated by paraphrase}
+\end{array}
+\]
+
+\subsection*{Teaching Point}
+
+Frege and Russell are both logicists, but they differ sharply about what numbers are.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Frege: numbers exist as logical objects.}
+\]
+
+\[
+\text{Russell: numbers are logical fictions.}
+\]
+
+\section*{18. Carnap and Logical Positivism}
+
+Carnap shifts the debate from ontology to language.
+
+He thinks the traditional question:
+
+\[
+\text{Do numbers really exist?}
+\]
+
+is either trivial or meaningless, depending on how it is asked.
+
+Carnap distinguishes internal and external questions.
+
+\[
+\begin{array}{c|c}
+\textbf{Internal questions} & \textbf{External questions} \\
+\hline
+\text{asked within a framework} & \text{asked about the framework as a whole} \\
+\text{answered by rules} & \text{pragmatic or pseudo-question} \\
+\text{Is there a prime greater than 100?} & \text{Do numbers really exist?}
+\end{array}
+\]
+
+\subsection*{Teaching Point}
+
+For Carnap, mathematics is analytic within a linguistic framework. The metaphysical
+question of whether numbers really exist is not a genuine factual question.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Internal:}
+\quad
+\exists n(n \text{ is prime and } n>100)
+\]
+
+\[
+\text{External:}
+\quad
+\text{Do numbers really exist?}
+\]
+
+\[
+\text{Carnap: choose frameworks pragmatically.}
+\]
+
+\section*{19. Carnap's Principle of Tolerance}
+
+Carnap defends a principle of tolerance.
+
+We are free to adopt whatever linguistic framework is useful, provided the rules are clear.
+
+The question is not:
+
+\[
+\text{Is this framework metaphysically correct?}
+\]
+
+The question is:
+
+\[
+\text{Is this framework useful for science and inquiry?}
+\]
+
+This lets Carnap accept impredicative systems if they are useful, without defending them
+by metaphysics.
+
+\subsection*{Teaching Point}
+
+Carnap replaces metaphysical justification with pragmatic choice of language.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Frameworks are tools.}
+\]
+
+\[
+\text{Choose by clarity, efficiency, and usefulness.}
+\]
+
+\[
+\text{No metaphysical tribunal.}
+\]
+
+\section*{20. Ayer and Mathematical Truth}
+
+Ayer states the positivist view clearly.
+
+Empiricism says that factual truths are known through experience.
+
+But mathematics seems necessary and certain.
+
+So the positivist concludes:
+
+\[
+\boxed{
+\text{Mathematics is necessary because it has no factual content.}
+}
+\]
+
+Mathematical truths are analytic. They are true by virtue of linguistic rules.
+
+\[
+\begin{array}{c|c}
+\textbf{Science} & \textbf{Mathematics} \\
+\hline
+\text{factual} & \text{analytic} \\
+\text{empirically testable} & \text{true by rules} \\
+\text{fallible} & \text{necessary}
+\end{array}
+\]
+
+\subsection*{Teaching Point}
+
+Logical positivism preserves empiricism by saying that mathematics is not factual.
+
+\subsection*{Whiteboard}
+
+\[
+\text{If factual, then empirical.}
+\]
+
+\[
+\text{Mathematics is not empirical.}
+\]
+
+\[
+\therefore
+\quad
+\text{mathematics is not factual.}
+\]
+
+\section*{21. Geometry as a Framework}
+
+Logical positivists also treat geometry as a framework.
+
+Euclidean geometry is not refuted by measuring a triangle and finding that its angles do
+not sum to \(180^\circ\).
+
+Instead, we say:
+
+\[
+\text{the measurement was wrong}
+\]
+
+or
+
+\[
+\text{the physical triangle is not Euclidean.}
+\]
+
+Pure geometry is analytic within its framework.
+
+The empirical question is which geometry is useful for physics.
+
+\subsection*{Teaching Point}
+
+The logical positivists separate pure mathematics from applied mathematics.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Pure geometry: analytic framework}
+\]
+
+\[
+\text{Applied geometry: empirical choice}
+\]
+
+\[
+\text{Euclidean? Non-Euclidean?}
+\]
+
+\section*{22. Problems for Logical Positivism}
+
+Logical positivism eventually runs into several major problems.
+
+\[
+\begin{array}{c|p{0.62\textwidth}}
+\textbf{Problem} & \textbf{Question} \\
+\hline
+\text{Verification} &
+What exactly makes a factual statement verifiable? \\
+
+\text{Self-reference} &
+Is the verification principle itself analytic or empirically verifiable? \\
+
+\text{Analytic/synthetic distinction} &
+Can we sharply distinguish truths by meaning from truths by fact? \\
+
+\text{Mathematical practice} &
+Is mathematics really divided into self-contained frameworks?
+\end{array}
+\]
+
+Quine attacks the analytic/synthetic distinction and develops a more holistic empiricism.
+
+\subsection*{Teaching Point}
+
+The positivist account of mathematics depends on a sharp distinction between analytic
+framework rules and empirical factual claims. That distinction comes under pressure.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Analytic}
+\quad \big| \quad
+\text{Synthetic}
+\]
+
+\[
+\text{Quine: no sharp boundary.}
+\]
+
+\section*{23. G\"odel and Self-Contained Frameworks}
+
+Carnap's picture suggests that mathematical truths are knowable from the rules of their
+framework.
+
+But G\"odel's incompleteness theorem complicates this.
+
+If \(D\) is a sufficiently strong effective deductive system, then there are sentences in the
+language of \(D\) that are not decided by the rules of \(D\).
+
+\[
+D \nvdash P
+\qquad
+D \nvdash \neg P
+\]
+
+In practice, mathematicians often prove results about one structure by embedding it in a
+richer structure.
+
+\subsection*{Teaching Point}
+
+Mathematical knowledge is not neatly confined inside isolated linguistic frameworks.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Arithmetic statement}
+\]
+
+\[
+\Downarrow
+\]
+
+\[
+\text{proved using richer mathematics}
+\]
+
+\[
+\text{Frameworks are not self-contained.}
+\]
+
+\section*{24. Fermat's Last Theorem}
+
+Fermat's Last Theorem is a useful example.
+
+It is a statement about natural numbers:
+
+\[
+a^n+b^n \neq c^n
+\]
+
+for positive natural numbers \(a,b,c\) and \(n>2\).
+
+The statement is elementary enough to understand with basic arithmetic.
+
+But its proof uses highly sophisticated mathematics far beyond elementary arithmetic.
+
+\subsection*{Teaching Point}
+
+Understanding the statement of a theorem is not the same as having the resources to know
+that it is true.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Simple statement}
+\]
+
+\[
+a^n+b^n \neq c^n
+\]
+
+\[
+\text{Deep proof}
+\]
+
+\[
+\text{elliptic curves, modular forms, advanced structures}
+\]
+
+\section*{25. Neo-Logicism}
+
+Contemporary neo-logicists, such as Crispin Wright and Bob Hale, revive Frege's project.
+
+They avoid Basic Law V and work directly with Hume's Principle.
+
+\[
+\boxed{
+\#F = \#G
+\quad \text{iff}
+\quad
+F \sim G
+}
+\]
+
+The neo-logicist claim is not usually that Hume's Principle is a logical truth in the strict
+old sense.
+
+Rather, Hume's Principle is treated as analytic, or meaning-constitutive, of the concept of
+cardinal number.
+
+\[
+\text{Hume's Principle}
++
+\text{second-order logic}
+\Rightarrow
+\text{arithmetic}
+\]
+
+\subsection*{Teaching Point}
+
+Neo-logicism preserves Frege's central insight while avoiding the inconsistent theory of
+extensions.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Frege: Basic Law V}
+\quad \Rightarrow \quad
+\text{paradox}
+\]
+
+\[
+\text{Neo-logicism: Hume's Principle}
+\quad \Rightarrow \quad
+\text{arithmetic}
+\]
+
+\section*{26. Problems for Neo-Logicism}
+
+Neo-logicism faces several major problems.
+
+\[
+\begin{array}{c|p{0.62\textwidth}}
+\textbf{Problem} & \textbf{Question} \\
+\hline
+\text{Second-order logic} &
+Is second-order logic really logic, or is it set theory in disguise? \\
+
+\text{Caesar problem} &
+Does Hume's Principle fully identify numbers as objects? \\
+
+\text{Bad company} &
+How do we distinguish good abstraction principles from bad ones? \\
+
+\text{Scope} &
+Can the method extend beyond arithmetic?
+\end{array}
+\]
+
+The bad company objection is especially important.
+
+Basic Law V and Hume's Principle are both abstraction principles. One is inconsistent; the
+other is fruitful.
+
+\[
+\text{What separates good abstraction from bad abstraction?}
+\]
+
+\subsection*{Teaching Point}
+
+Neo-logicism depends on showing that Hume's Principle is legitimate in a way that bad
+abstraction principles are not.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Good abstraction: Hume's Principle}
+\]
+
+\[
+\text{Bad abstraction: Basic Law V}
+\]
+
+\[
+\text{Need a non-ad hoc distinction.}
+\]
+
+\section*{Conclusion: What Would Logicism Have to Show?}
+
+Logicism must show that mathematics can be derived from logic and definitions.
+
+But the chapter repeatedly presses the same question:
+
+\[
+\boxed{
+\text{What counts as logic?}
+}
+\]
+
+If logic includes concepts, extensions, classes, second-order quantification, infinity,
+choice, reducibility, and abstraction principles, then the reduction may look suspicious.
+
+Perhaps mathematics has not been reduced to logic.
+
+Perhaps mathematics has been moved into logic.
+
+\[
+\begin{array}{c|c|c}
+\textbf{Frege} & \textbf{Russell} & \textbf{Carnap} \\
+\hline
+\text{numbers as logical objects} &
+\text{numbers as logical fictions} &
+\text{numbers as framework-internal entities} \\
+\text{realist logicism} &
+\text{type-theoretic logicism} &
+\text{linguistic logicism} \\
+\text{paradox problem} &
+\text{extra axioms problem} &
+\text{framework problem}
+\end{array}
+\]
+
+\section*{Final Framing}
+
+To teach this chapter well, present logicism as a powerful but unstable answer to the
+post-Kantian problem.
+
+It gives a beautiful explanation of the a priori character of mathematics:
+
+\[
+\text{Mathematics is knowable because it follows from logic.}
+\]
+
+But it also faces a deep challenge:
+
+\[
+\text{The more logic must contain, the less clear it is that mathematics has been reduced.}
+\]
+
+\[
+\boxed{
+\text{Logicism lives or dies by the boundary between logic and mathematics.}
+}
+\]
+
+\section*{Discussion Questions}
+
+\begin{enumerate}[leftmargin=2em]
+    \item What does logicism claim about mathematics?
+    \item How does Frege's notion of analyticity differ from Kant's?
+    \item Why is equinumerosity important for defining number?
+    \item What does Hume's Principle say?
+    \item Does Hume's Principle fully identify numbers as objects?
+    \item What is the Caesar problem?
+    \item Why does Russell's paradox undermine Frege's system?
+    \item Does type theory solve the paradox at too high a cost?
+    \item Is the axiom of infinity a logical truth?
+    \item Why does the axiom of reducibility look ad hoc?
+    \item Are numbers objects, fictions, or framework-internal entities?
+    \item Is Carnap right that external ontological questions are pseudo-questions?
+    \item Does G\"odel's incompleteness theorem undermine the idea of self-contained mathematical frameworks?
+    \item Is second-order logic really logic?
+    \item Can neo-logicism succeed where Frege's original logicism failed?
+\end{enumerate}
+
+\section*{Key Terms}
+
+\begin{description}[leftmargin=2em]
+    \item[Logicism] The view that mathematics, or a significant part of mathematics, can be reduced to logic.
+
+    \item[Analytic truth] For Frege, a truth provable from logic and definitions alone.
+
+    \item[A priori] Knowable independently of sensory experience.
+
+    \item[Concept] For Frege, something under which objects fall; roughly, a property.
+
+    \item[Equinumerosity] The relation between two concepts or collections when their objects can be placed in one-to-one correspondence.
+
+    \item[Hume's Principle] The principle that the number of \(F\) is identical with the number of \(G\) if and only if \(F\) and \(G\) are equinumerous.
+
+    \item[Frege's Theorem] The result that arithmetic can be derived from Hume's Principle in second-order logic.
+
+    \item[Caesar problem] The problem that Hume's Principle determines identities between numbers but not identities between numbers and arbitrary objects.
+
+    \item[Extension] The class of all objects falling under a concept.
+
+    \item[Basic Law V] Frege's principle that two concepts have the same extension if and only if they apply to the same objects.
+
+    \item[Russell's paradox] The contradiction generated by considering the class of all classes that are not members of themselves.
+
+    \item[Impredicative definition] A definition that defines an object by referring to a totality containing that object.
+
+    \item[Vicious circle principle] Russell's principle that no object may be defined by reference to a totality containing that object.
+
+    \item[Type theory] Russell's hierarchy of individuals, classes of individuals, classes of classes, and so on, designed to avoid paradox.
+
+    \item[Axiom of infinity] Russell and Whitehead's postulate that there are infinitely many individuals.
+
+    \item[Axiom of reducibility] Russell and Whitehead's postulate that every class is equivalent to a predicative class.
+
+    \item[Logical fiction] Russell's term for entities, such as classes, that are useful in discourse but not part of the ultimate furniture of reality.
+
+    \item[Linguistic framework] Carnap's term for a system of language and rules within which questions can be meaningfully asked and answered.
+
+    \item[Internal question] For Carnap, a question asked within a linguistic framework.
+
+    \item[External question] For Carnap, a question about the reality or legitimacy of a framework as a whole.
+
+    \item[Principle of tolerance] Carnap's view that we may choose whichever linguistic frameworks are useful, provided their rules are clear.
+
+    \item[Neo-logicism] A contemporary revival of Fregean logicism, especially through Hume's Principle and abstraction principles.
+
+    \item[Bad company objection] The objection that neo-logicists need a principled way to distinguish acceptable abstraction principles from unacceptable ones.
+\end{description}
+
+\end{document}
