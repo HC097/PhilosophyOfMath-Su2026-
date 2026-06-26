@@ -1,0 +1,1590 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{enumitem}
+
+\title{Lecture 6 Notes: \\ Formalism: Do Mathematical Statements Mean Anything?}
+\author{Philosophy of Mathematics}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Central Theme}
+
+Formalism is the family of views according to which mathematics is best understood
+through symbols, rules, axioms, and formal systems.
+
+\[
+\boxed{
+\text{Mathematics} = \text{symbols} + \text{rules?}
+}
+\]
+
+The guiding question:
+
+\[
+\boxed{
+\text{Is mathematics about anything, or is it just rule-governed symbol manipulation?}
+}
+\]
+
+Formalism tries to avoid metaphysical and epistemological problems by treating
+mathematics as formal activity rather than as knowledge of abstract objects.
+
+\section*{1. The Formalist Impulse}
+
+Much mathematical practice looks like symbol manipulation according to rules.
+
+For example, if we have:
+
+\[
+a \times b = c,
+\]
+
+then we may write:
+
+\[
+b \times a = c.
+\]
+
+And if we also have:
+
+\[
+a \neq 0,
+\]
+
+then we may write:
+
+\[
+c/a = b.
+\]
+
+The formalist asks whether this is not merely how mathematics is represented, but what
+mathematics essentially is.
+
+\subsection*{Teaching Point}
+
+Formalism seizes on the rule-governed, symbolic character of mathematics and asks
+whether anything more is needed.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Mathematics}
+\quad =
+\quad
+\text{symbols}
++
+\text{rules for manipulating symbols}
+\]
+
+\[
+\text{Do the symbols have to mean anything?}
+\]
+
+\section*{2. Why Formalism Is Tempting}
+
+Formalism becomes especially tempting when mathematics introduces entities that seem
+difficult to interpret.
+
+Examples:
+
+\[
+\text{negative numbers}
+\]
+
+\[
+\text{irrational numbers}
+\]
+
+\[
+\text{transcendental numbers}
+\]
+
+\[
+\text{imaginary numbers}
+\]
+
+\[
+\text{points at infinity}
+\]
+
+Instead of asking what these entities really are, the formalist may say that mathematics
+only tells us how to use the corresponding symbols.
+
+\subsection*{Teaching Point}
+
+Formalism offers a way to avoid metaphysical anxiety about mysterious mathematical
+objects.
+
+\subsection*{Whiteboard}
+
+\[
+\text{What is } i?
+\]
+
+\[
+\text{Formalist answer:}
+\quad
+\text{a symbol governed by rules, e.g. } i^2=-1.
+\]
+
+\section*{3. Term Formalism}
+
+The first version of formalism is term formalism.
+
+\[
+\boxed{
+\text{Mathematical objects are symbols or terms.}
+}
+\]
+
+On this view:
+
+\[
+2 = \text{the numeral } ``2"
+\]
+
+\[
+8+2i = \text{the symbol } ``8+2i"
+\]
+
+So mathematics has a subject matter, but its subject matter is linguistic.
+
+\[
+\begin{array}{rcl}
+\text{What is mathematics about?} &:& \text{symbols} \\
+\text{What are numbers?} &:& \text{numerals or symbol-types} \\
+\text{How do we know mathematics?} &:& \text{by knowing rules for symbols}
+\end{array}
+\]
+
+\subsection*{Teaching Point}
+
+Term formalism does not say that mathematics is about nothing. It says that mathematics
+is about its own signs.
+
+\subsection*{Whiteboard}
+
+\[
+\textbf{Term Formalism}
+\]
+
+\[
+\text{numbers} = \text{numerals}
+\]
+
+\[
+\text{mathematical objects} = \text{mathematical terms}
+\]
+
+\section*{4. Tokens and Types}
+
+Term formalism immediately faces a problem.
+
+Consider:
+
+\[
+0=0.
+\]
+
+This cannot mean that one physical mark is identical to another physical mark. The two
+marks are distinct pieces of ink, chalk, or pixels.
+
+So the term formalist may shift from tokens to types.
+
+\[
+\begin{array}{c|c}
+\textbf{Token} & \textbf{Type} \\
+\hline
+\text{particular physical mark} & \text{repeatable abstract form} \\
+\text{this ink mark} & \text{the symbol-form } ``0" \\
+\text{created and destroyed} & \text{shared by many tokens}
+\end{array}
+\]
+
+But types are abstract objects. So term formalism may reintroduce the very kind of
+abstract ontology it hoped to avoid.
+
+\subsection*{Teaching Point}
+
+If numbers are symbol-types, then term formalism still owes us an account of abstract
+objects.
+
+\subsection*{Whiteboard}
+
+\[
+0=0
+\]
+
+\[
+\text{token identity? No.}
+\]
+
+\[
+\text{type identity? Maybe.}
+\]
+
+\[
+\text{But types are abstract.}
+\]
+
+\section*{5. Frege's Critique of Term Formalism}
+
+Frege presses the problem with ordinary equations.
+
+Consider:
+
+\[
+5+7=6+6.
+\]
+
+If mathematical terms denote themselves, then this says:
+
+\[
+``5+7" = ``6+6".
+\]
+
+But that is false. The symbols are different.
+
+So the term formalist may reinterpret equality as intersubstitutability:
+
+\[
+``5+7" \text{ may be substituted for } ``6+6".
+\]
+
+But then equality no longer means identity.
+
+\subsection*{Teaching Point}
+
+Term formalism cannot preserve the ordinary meaning of mathematical equations.
+
+\subsection*{Whiteboard}
+
+\[
+5+7=6+6
+\]
+
+\[
+\text{Not: } ``5+7" = ``6+6"
+\]
+
+\[
+\text{Maybe: } ``5+7" \leftrightarrow ``6+6"
+\text{ by rule}
+\]
+
+\[
+\text{But then } = \text{ has changed meaning.}
+\]
+
+\section*{6. Real Numbers and General Theorems}
+
+Term formalism has special trouble with real numbers.
+
+Many real numbers have no finite name. One might try to identify \(\pi\) with its decimal
+expansion:
+
+\[
+3.14159\ldots
+\]
+
+But the decimal expansion is infinite, not an ordinary concrete symbol.
+
+If the term formalist appeals to limits of finite decimals, then the view begins to look like
+ordinary real analysis rather than formalism.
+
+Term formalism also struggles with general mathematical theorems:
+
+\[
+\text{There are infinitely many primes.}
+\]
+
+\[
+\text{Every continuous function on a closed interval is bounded.}
+\]
+
+\[
+\text{Every nonconstant polynomial over } \mathbb{C} \text{ has a root.}
+\]
+
+These do not seem to be merely about symbols.
+
+\subsection*{Teaching Point}
+
+Term formalism may handle simple calculations, but it struggles with higher mathematics
+and general mathematical propositions.
+
+\subsection*{Whiteboard}
+
+\[
+\pi = 3.14159\ldots
+\]
+
+\[
+\text{Is this a symbol?}
+\]
+
+\[
+\text{What about theorems about all real numbers?}
+\]
+
+\section*{7. Game Formalism}
+
+The second version of formalism is game formalism.
+
+\[
+\boxed{
+\text{Mathematics is like chess: a game played with symbols according to rules.}
+}
+\]
+
+On this view, mathematical symbols are either meaningless or their meaning is irrelevant.
+
+\[
+\begin{array}{rcl}
+\text{What is mathematics about?} &:& \text{nothing} \\
+\text{What are numbers?} &:& \text{nothing, or no concern} \\
+\text{What is mathematical knowledge?} &:& \text{knowledge of legal moves}
+\end{array}
+\]
+
+A theorem is like a reachable position in a game.
+
+\[
+\text{axioms}
+\quad \longrightarrow \quad
+\text{legal moves}
+\quad \longrightarrow \quad
+\text{theorem}
+\]
+
+\subsection*{Teaching Point}
+
+Game formalism avoids ontology by denying that mathematics needs a subject matter.
+
+\subsection*{Whiteboard}
+
+\[
+\textbf{Game Formalism}
+\]
+
+\[
+\text{axioms} + \text{rules} = \text{legal derivations}
+\]
+
+\[
+\text{mathematical theorem} = \text{reachable position}
+\]
+
+\section*{8. Frege's Critique of Game Formalism}
+
+Frege's main objection is the problem of applicability.
+
+Chess is rule-governed, but no one expects chess to explain planetary motion, engineering,
+electricity, or quantum mechanics.
+
+Mathematics, by contrast, is deeply applicable to nature.
+
+\[
+\begin{array}{c|c}
+\textbf{Chess} & \textbf{Mathematics} \\
+\hline
+\text{rule-governed} & \text{rule-governed} \\
+\text{no scientific application expected} & \text{scientifically indispensable} \\
+\text{no external truth needed} & \text{seems to express truth}
+\end{array}
+\]
+
+If mathematics is only a meaningless game, why does it work so well?
+
+\subsection*{Teaching Point}
+
+Frege argues that applicability requires meaning. Arithmetic can be applied because its
+equations express thoughts.
+
+\subsection*{Whiteboard}
+
+\[
+\text{If mathematics is like chess,}
+\]
+
+\[
+\text{why does mathematics apply to science?}
+\]
+
+\[
+\boxed{
+\text{Meaning seems needed for application.}
+}
+\]
+
+\section*{9. Instrumentalism Analogy}
+
+Game formalism resembles instrumentalism in philosophy of science.
+
+Instrumentalism says that theories about unobservable entities are instruments for
+prediction, not literal descriptions of reality.
+
+Likewise, game formalism says that mathematics is an instrument made of formal
+symbols, not a description of mathematical objects.
+
+But both views face a similar question:
+
+\[
+\text{Why does the instrument work?}
+\]
+
+\subsection*{Teaching Point}
+
+Formalism may avoid ontology, but it inherits a serious explanatory burden: why is the
+formal instrument so effective?
+
+\subsection*{Whiteboard}
+
+\[
+\text{Instrumentalism:}
+\quad
+\text{science as prediction-tool}
+\]
+
+\[
+\text{Formalism:}
+\quad
+\text{mathematics as symbol-tool}
+\]
+
+\[
+\text{Question: why does it work?}
+\]
+
+\section*{10. Deductivism}
+
+Deductivism is a more sophisticated formalist view.
+
+\[
+\boxed{
+\text{Mathematics studies what follows from axioms.}
+}
+\]
+
+A theorem \(\Phi\) is not simply asserted as true. Rather, the claim is:
+
+\[
+\text{If the axioms are true, then } \Phi \text{ is true.}
+\]
+
+This is why deductivism is sometimes called:
+
+\[
+\text{if-then-ism.}
+\]
+
+Deductivism preserves the importance of logical consequence. Rules of inference are not
+arbitrary moves; they must preserve truth under interpretation.
+
+\subsection*{Teaching Point}
+
+Deductivism treats mathematics as the study of logical consequence from uninterpreted
+or variably interpreted axioms.
+
+\subsection*{Whiteboard}
+
+\[
+\textbf{Deductivism}
+\]
+
+\[
+A_1,\ldots,A_n \vdash \Phi
+\]
+
+\[
+\text{means: if } A_1,\ldots,A_n \text{ hold, then } \Phi \text{ holds.}
+\]
+
+\section*{11. Logical and Non-Logical Terms}
+
+Deductivism distinguishes logical terms from mathematical primitives.
+
+\[
+\begin{array}{c|c}
+\textbf{Logical terms} & \textbf{Mathematical terms} \\
+\hline
+\text{and} & \text{point} \\
+\text{or} & \text{line} \\
+\text{not} & \text{number} \\
+\text{if...then} & \text{set} \\
+\text{for all} & \text{function} \\
+\text{there exists} & \text{plane}
+\end{array}
+\]
+
+The logical vocabulary keeps its meaning. The mathematical vocabulary may be left
+uninterpreted.
+
+\subsection*{Teaching Point}
+
+For the deductivist, mathematics does not require fixed meanings for its primitive
+mathematical terms.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Keep logic fixed.}
+\]
+
+\[
+\text{Let mathematical primitives vary.}
+\]
+
+\[
+\text{Study consequence.}
+\]
+
+\section*{12. Hilbert's Geometry}
+
+Hilbert's \emph{Grundlagen der Geometrie} is the central example of deductivist
+mathematics.
+
+Geometry can be axiomatized without relying on spatial intuition.
+
+Once the axioms are stated, proofs should depend only on formal relations among the
+terms.
+
+The famous idea:
+
+\[
+\boxed{
+\text{``points,'' ``lines,'' and ``planes'' could be ``tables,'' ``chairs,'' and ``beer mugs.''}
+}
+\]
+
+What matters is not the intuitive meaning of the words. What matters is whether the
+objects satisfy the axioms.
+
+\subsection*{Teaching Point}
+
+Hilbert transforms geometry from the study of intuitive space into the study of abstract
+relational structure.
+
+\subsection*{Whiteboard}
+
+\[
+\text{point, line, plane}
+\]
+
+\[
+\Downarrow
+\]
+
+\[
+\text{table, chair, beer mug}
+\]
+
+\[
+\text{Same theory if the axioms are satisfied.}
+\]
+
+\section*{13. Implicit Definition}
+
+Hilbert's axioms do not define individual terms one at a time.
+
+Instead, they define the primitive terms together by fixing their relations.
+
+This is called implicit definition.
+
+\[
+\boxed{
+\text{Axioms implicitly define a structure.}
+}
+\]
+
+The primitive terms get their mathematical role from the axioms.
+
+\subsection*{Teaching Point}
+
+Axioms can function as definitions, not by giving synonyms, but by fixing structural roles.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Explicit definition:}
+\quad
+\text{define one term by already understood terms.}
+\]
+
+\[
+\text{Implicit definition:}
+\quad
+\text{fix several terms by their relations.}
+\]
+
+\[
+\text{Axioms define roles.}
+\]
+
+\section*{14. Frege versus Hilbert}
+
+Frege objects to Hilbert's use of axioms as definitions.
+
+For Frege:
+
+\[
+\text{definitions give meanings}
+\]
+
+\[
+\text{axioms state truths}
+\]
+
+So axioms cannot also be definitions.
+
+Frege's dilemma:
+
+\[
+\begin{array}{c|c}
+\textbf{Terms already have meaning} & \textbf{Terms lack meaning} \\
+\hline
+\text{axioms can be true or false} & \text{axioms cannot be true or false} \\
+\text{but are not definitions} & \text{so they are not genuine axioms}
+\end{array}
+\]
+
+Hilbert replies that this misunderstands modern axiomatics. A mathematical theory fixes
+primitive notions through their relations to each other.
+
+\subsection*{Teaching Point}
+
+Frege wants meanings first and axioms second. Hilbert lets axioms fix the roles of the
+terms.
+
+\subsection*{Whiteboard}
+
+\[
+\begin{array}{c|c}
+\textbf{Frege} & \textbf{Hilbert} \\
+\hline
+\text{meaning before axioms} & \text{axioms fix meaning/role} \\
+\text{truth before consistency} & \text{consistency as legitimacy} \\
+\text{concepts determine objects} & \text{structures determine positions}
+\end{array}
+\]
+
+\section*{15. Consistency as Legitimacy}
+
+Hilbert famously claims:
+
+\[
+\boxed{
+\text{If the axioms are consistent, then the things defined by them exist.}
+}
+\]
+
+A more cautious formulation is:
+
+\[
+\boxed{
+\text{Consistency is enough for mathematical legitimacy.}
+}
+\]
+
+This is a crucial formalist idea. Mathematics need not first identify an independently
+given subject matter. It can set up a consistent axiomatic system and study its
+consequences.
+
+\subsection*{Teaching Point}
+
+Hilbert replaces the question ``What are these objects?'' with the question ``Are the
+axioms consistent?''
+
+\subsection*{Whiteboard}
+
+\[
+\text{Existence?}
+\quad \longrightarrow \quad
+\text{Consistency}
+\]
+
+\[
+\operatorname{Con}(T)
+\quad \Rightarrow \quad
+\text{legitimate theory }T
+\]
+
+\section*{16. Meta-Mathematics}
+
+Once formal systems are rigorously specified, they can be studied mathematically.
+
+This is meta-mathematics.
+
+\[
+\boxed{
+\text{Meta-mathematics} = \text{mathematics about formal mathematics}
+}
+\]
+
+Meta-mathematical questions include:
+
+\[
+\text{Is this axiom system consistent?}
+\]
+
+\[
+\text{Is this axiom independent of the others?}
+\]
+
+\[
+\text{Is this formula derivable from these axioms?}
+\]
+
+Hilbert's geometry already uses meta-mathematical methods by constructing models to
+show consistency and independence.
+
+\subsection*{Teaching Point}
+
+Formalism helped create meta-mathematics: the mathematical study of formal systems
+themselves.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Mathematics}
+\quad \longrightarrow \quad
+\text{formal system}
+\]
+
+\[
+\text{Formal system}
+\quad \longrightarrow \quad
+\text{object of study}
+\]
+
+\[
+\text{meta-mathematics}
+\]
+
+\section*{17. The Foundational Crisis}
+
+At the turn of the twentieth century, mathematics faced both enormous progress and
+serious foundational anxiety.
+
+Progress:
+
+\[
+\text{real analysis}
+\]
+
+\[
+\text{complex analysis}
+\]
+
+\[
+\text{Cantor's set theory}
+\]
+
+\[
+\text{the mathematics of the infinite}
+\]
+
+Crisis:
+
+\[
+\text{Russell's paradox}
+\]
+
+\[
+\text{set-theoretic antinomies}
+\]
+
+\[
+\text{doubts about infinite totalities}
+\]
+
+\[
+\text{restrictions proposed by critics}
+\]
+
+Hilbert wanted to preserve classical mathematics without surrendering to skepticism.
+
+\subsection*{Teaching Point}
+
+Hilbert's mature program is a defense of classical mathematics against paradox and
+restriction.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Power of the infinite}
+\quad +
+\quad
+\text{paradoxes}
+\quad =
+\quad
+\text{foundational crisis}
+\]
+
+\[
+\text{Hilbert: defend classical mathematics.}
+\]
+
+\section*{18. Hilbert's Program}
+
+Hilbert's goal:
+
+\[
+\boxed{
+\text{Establish once and for all the certainty of mathematical methods.}
+}
+\]
+
+His famous declaration:
+
+\[
+\boxed{
+\text{No one shall drive us out of Cantor's paradise.}
+}
+\]
+
+The strategy is to formalize ideal mathematics and then prove, using secure finitary
+methods, that these formal systems are consistent.
+
+\[
+\text{formalize}
+\quad \longrightarrow \quad
+\text{prove consistency}
+\quad \longrightarrow \quad
+\text{secure ideal mathematics}
+\]
+
+\subsection*{Teaching Point}
+
+Hilbert does not reject modern mathematics. He tries to justify it by proving that it is
+safe.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Classical mathematics}
+\]
+
+\[
+\Downarrow
+\]
+
+\[
+\text{formal system }T
+\]
+
+\[
+\Downarrow
+\]
+
+\[
+\text{finitary proof of } \operatorname{Con}(T)
+\]
+
+\section*{19. Finitary Mathematics}
+
+Hilbert distinguishes finitary mathematics from ideal mathematics.
+
+Finitary mathematics is meaningful, secure, and directly surveyable.
+
+It includes concrete calculations:
+
+\[
+2+3=5
+\]
+
+\[
+12553+2477=15030
+\]
+
+It also includes bounded quantifiers:
+
+\[
+\exists p<101!+2 \text{ such that } p \text{ is prime.}
+\]
+
+This is finitary because only finitely many cases are involved.
+
+\subsection*{Teaching Point}
+
+Finitary mathematics is Hilbert's secure base: meaningful mathematics concerning
+concrete symbolic constructions.
+
+\subsection*{Whiteboard}
+
+\[
+\textbf{Finitary}
+\]
+
+\[
+\text{specific calculations}
+\]
+
+\[
+\text{bounded search}
+\]
+
+\[
+\text{directly checkable in principle}
+\]
+
+\section*{20. Bounded and Unbounded Quantifiers}
+
+Hilbert treats bounded and unbounded quantification differently.
+
+\[
+\begin{array}{c|c}
+\textbf{Bounded quantifier} & \textbf{Unbounded quantifier} \\
+\hline
+\text{finite search} & \text{infinite range} \\
+\text{finitary} & \text{ideal or non-finitary} \\
+\text{effectively checkable in principle} & \text{not reducible to finite checking}
+\end{array}
+\]
+
+Example of a bounded quantifier:
+
+\[
+\exists p<101!+2 \text{ such that } p \text{ is prime.}
+\]
+
+Example of an unbounded quantifier:
+
+\[
+\exists p>100 \text{ such that } p \text{ and } p+2 \text{ are prime.}
+\]
+
+The second statement ranges over infinitely many possible numbers.
+
+\subsection*{Teaching Point}
+
+The finite/infinite distinction becomes epistemologically central for Hilbert.
+
+\subsection*{Whiteboard}
+
+\[
+\exists p<N
+\quad
+\text{bounded}
+\]
+
+\[
+\exists p
+\quad
+\text{unbounded}
+\]
+
+\[
+\text{finite check vs. infinite range}
+\]
+
+\section*{21. Stroke Symbols}
+
+Hilbert identifies the natural numbers with stroke-symbols.
+
+\[
+|,\quad ||,\quad |||,\quad ||||,\ldots
+\]
+
+The symbol \(2\) abbreviates:
+
+\[
+||
+\]
+
+The symbol \(3\) abbreviates:
+
+\[
+|||
+\]
+
+The statement:
+
+\[
+3>2
+\]
+
+means that the stroke-symbol for \(3\) is longer than the stroke-symbol for \(2\).
+
+These are not ordinary ink marks. They are symbol-types or directly surveyable symbolic
+forms.
+
+\subsection*{Teaching Point}
+
+Hilbert's finitism has a Kantian element: it rests on immediately surveyable symbolic
+constructions.
+
+\subsection*{Whiteboard}
+
+\[
+1 = |
+\]
+
+\[
+2 = ||
+\]
+
+\[
+3 = |||
+\]
+
+\[
+3>2
+\quad
+\text{because}
+\quad
+||| \text{ extends } ||
+\]
+
+\section*{22. Ideal Mathematics}
+
+Everything beyond finitary mathematics is ideal mathematics.
+
+Examples:
+
+\[
+\text{unbounded number theory}
+\]
+
+\[
+\text{real analysis}
+\]
+
+\[
+\text{complex analysis}
+\]
+
+\[
+\text{functional analysis}
+\]
+
+\[
+\text{set theory}
+\]
+
+Ideal mathematics may not have direct meaning in the way finitary mathematics does.
+Rather, it is treated instrumentally, as a formal device that helps us reason efficiently.
+
+Hilbert compares ideal mathematics to ideal points at infinity in geometry.
+
+\subsection*{Teaching Point}
+
+Ideal mathematics is not rejected. It is justified as a useful formal extension of finitary
+mathematics.
+
+\subsection*{Whiteboard}
+
+\[
+\begin{array}{c|c}
+\textbf{Finitary Mathematics} & \textbf{Ideal Mathematics} \\
+\hline
+\text{meaningful} & \text{formal/instrumental} \\
+\text{secure} & \text{requires justification} \\
+\text{finite symbols} & \text{infinity, analysis, set theory}
+\end{array}
+\]
+
+\section*{23. Conservativeness and Consistency}
+
+Ideal mathematics is legitimate only if it does not lead to false finitary results.
+
+This is the idea of conservativeness.
+
+\[
+\boxed{
+\text{Ideal mathematics should be conservative over finitary mathematics.}
+}
+\]
+
+In practice, this becomes the demand for consistency.
+
+\[
+\boxed{
+\text{Prove } \operatorname{Con}(T) \text{ by finitary means.}
+}
+\]
+
+If an ideal theory \(T\) is consistent, then it cannot derive contradiction. If it is also
+conservative over finitary mathematics, then it cannot corrupt the meaningful base.
+
+\subsection*{Teaching Point}
+
+Hilbert's formalism justifies ideal mathematics by proving that it is safe for finitary
+mathematics.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Ideal theory }T
+\]
+
+\[
+\text{safe if}
+\]
+
+\[
+T \nvdash 0 \neq 0
+\]
+
+\[
+\operatorname{Con}(T)
+\]
+
+\section*{24. Von Neumann's Summary}
+
+Von Neumann summarizes the Hilbert program in four stages:
+
+\begin{enumerate}[leftmargin=2em]
+    \item Enumerate all symbols used in mathematics and logic.
+    \item Characterize the meaningful formulas.
+    \item Give a construction procedure for all provable formulas.
+    \item Prove, by finitary means, that the system proves the correct finitary statements.
+\end{enumerate}
+
+The first three stages concern formalization.
+
+The fourth is the crucial epistemic stage: proving that the formalized theory is safe.
+
+\subsection*{Teaching Point}
+
+Hilbert's program is not merely formalization. It is formalization plus finitary justification.
+
+\subsection*{Whiteboard}
+
+\[
+\text{symbols}
+\rightarrow
+\text{formulas}
+\rightarrow
+\text{proofs}
+\rightarrow
+\text{finitary consistency/safety proof}
+\]
+
+\section*{25. G\"odel's First Incompleteness Theorem}
+
+G\"odel's first incompleteness theorem strikes at the hope for complete formalization.
+
+Let \(T\) be a sufficiently strong, consistent, effective formal system.
+
+Then there is a sentence \(G\) such that:
+
+\[
+T \nvdash G
+\]
+
+and, under suitable consistency assumptions,
+
+\[
+T \nvdash \neg G.
+\]
+
+Roughly, \(G\) says:
+
+\[
+\text{``}G\text{ is not provable in }T\text{.''}
+\]
+
+If \(T\) is consistent, then \(G\) is true but not provable in \(T\).
+
+\subsection*{Teaching Point}
+
+No sufficiently strong consistent effective formal system captures all arithmetic truth.
+
+\subsection*{Whiteboard}
+
+\[
+T \text{ consistent}
+\]
+
+\[
+\Rightarrow
+\]
+
+\[
+\exists G(T\nvdash G \text{ and } T\nvdash \neg G)
+\]
+
+\[
+\text{Truth outruns formal proof.}
+\]
+
+\section*{26. G\"odel's Second Incompleteness Theorem}
+
+G\"odel's second incompleteness theorem is more directly damaging to the Hilbert
+program.
+
+No sufficiently strong consistent system can prove its own consistency.
+
+\[
+\boxed{
+T \nvdash \operatorname{Con}(T)
+}
+\]
+
+assuming \(T\) is consistent and sufficiently strong.
+
+Hilbert wanted finitary consistency proofs for ideal mathematical theories.
+
+But if the ideal theory contains enough arithmetic, then its consistency cannot be proved
+inside the theory itself, much less inside a weaker finitary subsystem.
+
+\subsection*{Teaching Point}
+
+The second incompleteness theorem blocks the original Hilbert program's hoped-for
+method of securing classical mathematics.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Hilbert wants:}
+\quad
+\text{finitary proof of } \operatorname{Con}(T)
+\]
+
+\[
+\text{G\"odel shows:}
+\quad
+T \nvdash \operatorname{Con}(T)
+\]
+
+\[
+\text{if }T\text{ is consistent.}
+\]
+
+\section*{27. What G\"odel Does and Does Not Show}
+
+G\"odel's theorems do not show that mathematics is inconsistent.
+
+They do not show that formal systems are useless.
+
+They do not show that formalization is unimportant.
+
+But they do show that Hilbert's original epistemic ambition cannot be fulfilled in the
+simple way he hoped.
+
+\[
+\boxed{
+\text{The Hilbert program cannot succeed in its original form.}
+}
+\]
+
+\subsection*{Teaching Point}
+
+G\"odel limits formalism; he does not abolish formal methods.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Not: mathematics collapses.}
+\]
+
+\[
+\text{Not: formal systems are useless.}
+\]
+
+\[
+\text{But: formalism cannot secure everything from within.}
+\]
+
+\section*{28. Post-G\"odel Options}
+
+The chapter notes two possible responses after G\"odel.
+
+First, one might challenge the formalization of consistency. There are different ways to
+express consistency, and some do not fall under the exact second incompleteness result.
+
+Second, one might argue that finitary reasoning is inherently informal and cannot be fully
+captured by any one formal system.
+
+\[
+\text{Finitary reasoning}
+\quad \neq
+\quad
+\text{one formal theory}
+\]
+
+These responses do not restore Hilbert's program in its original form, but they show that
+the philosophical situation is subtle.
+
+\subsection*{Teaching Point}
+
+The failure of the original Hilbert program leaves room for weaker or revised formalist
+projects.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Option 1: different consistency notions}
+\]
+
+\[
+\text{Option 2: finitary reasoning is informal}
+\]
+
+\[
+\text{Revised Hilbert programs?}
+\]
+
+\section*{29. Curry's Formalism}
+
+The chapter ends with Haskell Curry.
+
+Curry's central claim:
+
+\[
+\boxed{
+\text{Mathematics is the science of formal systems.}
+}
+\]
+
+This is different from crude game formalism. Mathematical assertions are not merely
+moves within a system. They are often statements about formal systems.
+
+A typical mathematical assertion becomes:
+
+\[
+\Phi \text{ is a theorem of } T.
+\]
+
+Curry therefore treats mathematics as objective, but its subject matter is formal systems
+themselves.
+
+\subsection*{Teaching Point}
+
+Curry turns formalism into meta-mathematics: mathematics studies formal systems.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Mathematics}
+=
+\text{science of formal systems}
+\]
+
+\[
+\Phi \in \operatorname{Th}(T)
+\]
+
+\[
+\Phi \text{ is a theorem of }T
+\]
+
+\section*{30. Curry on Consistency and Usefulness}
+
+Curry does not follow Hilbert in requiring consistency proofs before accepting a formal
+system.
+
+For Curry, acceptability is pragmatic.
+
+Criteria include:
+
+\[
+\begin{array}{c}
+\text{intuitive evidence of premises} \\
+\text{consistency} \\
+\text{usefulness}
+\end{array}
+\]
+
+A consistency proof is useful, but it is not always necessary for accepting a system. If an
+inconsistency appears, the system may be modified rather than abandoned completely.
+
+\subsection*{Teaching Point}
+
+Curry's formalism is less vulnerable to G\"odel because it does not require Hilbert-style
+finitary consistency proofs.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Acceptability}
+=
+\text{purpose-relative}
+\]
+
+\[
+\text{consistency}
++
+\text{usefulness}
++
+\text{evidence}
+\]
+
+\section*{31. The Problem of Informal Mathematics}
+
+Curry's view faces a problem.
+
+If mathematics is the science of formal systems, what about mathematics before
+formalization?
+
+Were the following people not doing mathematics?
+
+\[
+\text{Archimedes}
+\]
+
+\[
+\text{Fermat}
+\]
+
+\[
+\text{Euler}
+\]
+
+\[
+\text{Cauchy}
+\]
+
+Even today, much mathematical practice is informal. Mathematicians do not usually write
+their work in fully formal deductive systems.
+
+\subsection*{Teaching Point}
+
+Formalism risks mistaking the formal reconstruction of mathematics for mathematics
+itself.
+
+\subsection*{Whiteboard}
+
+\[
+\text{Formalized mathematics}
+\quad \neq
+\quad
+\text{all mathematical practice}
+\]
+
+\[
+\text{Does formalism lose the living practice of mathematics?}
+\]
+
+\section*{Conclusion: The Formalist Family}
+
+Formalism is not one view. It is a family of views united by emphasis on symbols, rules,
+axioms, formal systems, and derivations.
+
+\[
+\begin{array}{c|c|c|c}
+\textbf{Term Formalism} & \textbf{Game Formalism} & \textbf{Deductivism} & \textbf{Hilbert Program} \\
+\hline
+\text{math about symbols} &
+\text{math as symbol game} &
+\text{math as consequence} &
+\text{ideal math justified by consistency} \\
+\text{objects = terms} &
+\text{no subject matter} &
+\text{if axioms, then theorem} &
+\text{finitary proof of safety} \\
+\text{Frege: equations fail} &
+\text{Frege: application fails} &
+\text{meaning thinned out} &
+\text{G\"odel problem}
+\end{array}
+\]
+
+Curry adds a later version:
+
+\[
+\boxed{
+\text{Mathematics is the science of formal systems.}
+}
+\]
+
+\section*{Final Framing}
+
+To teach this chapter well, present formalism as both powerful and limited.
+
+It is powerful because it clarifies proof, rigor, axioms, formal systems, consistency, and
+meta-mathematics.
+
+It is limited because mathematics appears to involve meaning, application, informal
+understanding, and truth that cannot be reduced to formal derivability.
+
+\[
+\boxed{
+\text{Formalism reveals the power of symbols, but struggles with meaning and application.}
+}
+\]
+
+\[
+\boxed{
+\text{G\"odel shows that formal systems cannot fully contain arithmetic truth.}
+}
+\]
+
+\section*{Discussion Questions}
+
+\begin{enumerate}[leftmargin=2em]
+    \item What motivates formalism as a philosophy of mathematics?
+    \item Is mathematics really just symbol manipulation?
+    \item What is the difference between term formalism and game formalism?
+    \item Can numbers be identified with numerals?
+    \item Why does Frege think formalism cannot explain applicability?
+    \item Is mathematics more like chess or more like science?
+    \item What does deductivism add to simple game formalism?
+    \item Can axioms function as definitions?
+    \item Was Frege or Hilbert right about the relation between definitions and axioms?
+    \item Is consistency enough for mathematical existence?
+    \item What is the difference between finitary and ideal mathematics?
+    \item Why did Hilbert want finitary consistency proofs?
+    \item What does G\"odel's first incompleteness theorem show?
+    \item Why is the second incompleteness theorem a problem for Hilbert's program?
+    \item Is Curry right that mathematics is the science of formal systems?
+\end{enumerate}
+
+\section*{Key Terms}
+
+\begin{description}[leftmargin=2em]
+    \item[Formalism] A family of views emphasizing mathematics as symbol manipulation,
+    formal rules, axioms, and formal systems.
+
+    \item[Term formalism] The view that mathematical objects are symbols or terms.
+
+    \item[Game formalism] The view that mathematics is like a game played with symbols
+    according to rules.
+
+    \item[Token] A particular physical inscription or mark.
+
+    \item[Type] A repeatable abstract symbol-form shared by many tokens.
+
+    \item[Deductivism] The view that mathematics studies what follows logically from
+    axioms.
+
+    \item[If-then-ism] Another name for deductivism; the view that mathematical theorems
+    are conditional on axioms.
+
+    \item[Implicit definition] A definition in which axioms fix the roles of primitive terms
+    by specifying their relations.
+
+    \item[Consistency] The property of a formal system that it does not derive a
+    contradiction.
+
+    \item[Meta-mathematics] The mathematical study of formal mathematical systems.
+
+    \item[Finitary mathematics] For Hilbert, secure mathematics concerning directly
+    surveyable finite symbolic constructions.
+
+    \item[Ideal mathematics] Mathematics involving ideal elements such as infinity, set
+    theory, and analysis, justified instrumentally by consistency or conservativeness.
+
+    \item[Conservativeness] The property that an extension of a theory does not prove any
+    new claims of a specified base kind, especially no false finitary claims.
+
+    \item[Hilbert program] Hilbert's project of formalizing ideal mathematics and proving
+    its consistency by finitary means.
+
+    \item[G\"odel's first incompleteness theorem] The result that any sufficiently strong,
+    consistent, effective formal system is incomplete.
+
+    \item[G\"odel's second incompleteness theorem] The result that no sufficiently strong
+    consistent formal system can prove its own consistency.
+
+    \item[Curry's formalism] The view that mathematics is the science of formal systems.
+\end{description}
+
+\end{document}
